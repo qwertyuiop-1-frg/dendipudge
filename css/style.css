@@ -1,0 +1,125 @@
+@font-face {
+    font-family: ofont;
+    src: url('../fonts/SIGN_CB.TTF');
+}
+
+body {
+    background: rgb(129, 28, 28);
+    font-family: ofont;
+}
+
+#container {
+    width: 400px;
+    border: 1px solid white;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600px;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    letter-spacing: 2px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style-type: none;
+    border-radius: 1px solid white;
+    text-align: center;
+}
+
+ul li img {
+    width: 100px;
+    padding-top: 10px;
+    border-radius: 10px;
+
+}
+
+ul li h2 {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    letter-spacing: 5px;
+
+}
+
+li.task-start div {
+    display: inline-block;
+}
+
+li.task-start div:first-child {
+    width: 240px;
+    text-align: left;
+}
+
+li.task-start div:last-child {
+    width: 150px;
+    text-align: right;
+}
+
+.yes {
+    height: 30px;
+    background-image: url('../img/yes_icon_128413.png');
+    background-size: 91% 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+}
+
+.no {
+    height: 30px;
+    background-image: url('../img/no_icon_128419.png');
+    background-size: 91% 95%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+}
+
+button {
+    border: none;
+    margin-top: 5px;
+}
+
+form h3 {
+    text-align: center;
+    margin: 0;
+}
+
+form input {
+    width: 95%;
+    padding: 7px 2px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-radius: 3px;
+}
+
+form button {
+    display: block;
+    width: 80%;
+    padding: 12px 0;
+    border-radius: 5px;
+    margin: 12px auto;
+}
+
+/*============*/
+.noneList {
+    display: none;
+}
+
+.runTask {
+    color: #eee;
+    text-decoration: line-through;
+}
+
+.editTask {
+    color: rgb(57, 57, 57);
+    text-decoration: line-through;
+}
